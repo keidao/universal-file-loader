@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sample</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="array_menu">
+[
+  {
+    "icon": "logout1.png",
+    "title": "로그인"
+  },
+  {
+    "icon": "logout2.png",
+    "title": "이용약관"
+  },
+  {
+    "icon": "logout3.png",
+    "title": "개인정보취급방침"
+  },
+  {
+    "icon": "logout4.png",
+    "title": "설정"
+  }
+]
+    </string>
+</resources>

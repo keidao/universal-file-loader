@@ -1,0 +1,16 @@
+-dontobfuscate
+
+-dontnote com.google.vending.licensing.ILicensingService
+-dontnote com.android.vending.licensing.ILicensingService
+-dontnote org.apache.commons.io.**
+
+-keepattributes InnerClasses
+
+-libraryjars libs
+
+-keep class com.nostra13.universalfileloader.**
+-keep class com.ppma.** { public <methods>; }
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}

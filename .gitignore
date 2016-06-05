@@ -1,0 +1,16 @@
+.gradle/
+.idea/
+.navigation/
+captures/
+build/
+gradle/
+local.properties
+private.properties
+project.properties
+.DS_Store
+.project
+.classpath
+*.iml
+*.keystore
+*.swp
+*.class
