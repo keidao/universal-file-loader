@@ -1,8 +1,5 @@
 package com.peoplemoa.sample;
 
-import com.peoplemoa.sample.util.SystemUiHider;
-import com.ppma.utils.JsonUtils;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
@@ -11,8 +8,7 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 
-import java.util.ArrayList;
-import java.util.Map;
+import com.peoplemoa.sample.util.SystemUiHider;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -54,9 +50,6 @@ public class FullscreenActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_fullscreen);
-
-        ArrayList<Map<String, String>> list = JsonUtils.getList(getString(R.string.array_menu));
-
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View contentView = findViewById(R.id.fullscreen_content);
