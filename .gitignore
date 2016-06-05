@@ -3,7 +3,6 @@
 .navigation/
 captures/
 build/
-gradle/
 local.properties
 private.properties
 project.properties
